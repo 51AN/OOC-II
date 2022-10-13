@@ -1,4 +1,4 @@
-package Lab07.TestTask02.Problem;
+package Lab07.Task02.Solution;
 
 public enum VehicleType {
     SEDAN, MOTOR_BIKE, SEVEN_SEATER

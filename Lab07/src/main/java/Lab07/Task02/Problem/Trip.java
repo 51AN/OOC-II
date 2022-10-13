@@ -1,16 +1,12 @@
-package Lab07.TestTask02.Problem;
+package Lab07.Task02.Problem;
 
 public class Trip {
     private VehicleType vehicleType;
     private int distanceKM;
     private int timeMinutes;
 
-    private int timeMinutes;
     private int numberOfPassengers;
-    public Trip(VehicleType vehicleType,
-                int distanceKM,
-                int timeMinutes,
-                int numberOfPassengers) {
+    public Trip(VehicleType vehicleType, int distanceKM, int timeMinutes, int numberOfPassengers) {
         this.vehicleType = vehicleType;
         this.distanceKM = distanceKM;
         this.timeMinutes = timeMinutes;
