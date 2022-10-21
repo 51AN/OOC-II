@@ -11,7 +11,6 @@ public class GenericCount {
                 ++cnt;
             }
         }
-
         return cnt;
     }
 
