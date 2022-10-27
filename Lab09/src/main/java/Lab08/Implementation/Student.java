@@ -3,16 +3,19 @@ package Lab08.Implementation;
 public class Student {
 
 
-    public Student(String id, String name, float CGPA){
+    public Student(String id, String name, float CGPA, Program program1){
         this.ID = id;
         this.name = name;
         this.CGPA = CGPA;
+        this.program = program1;
     }
     public String ID = "";
     public String name = "";
     public enum Program{
         CSE, SWE, IT
     }
+
+    public Program program;
     public float CGPA;
 
     public void setID(String id)throws InvalidStudentIDException{
