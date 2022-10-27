@@ -1,6 +1,7 @@
 package Lab09.MyImplementation;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class StudentEnrollment {
@@ -58,9 +59,14 @@ public class StudentEnrollment {
 
     public String Print(){
         String str = "";
-        for(Student student : students){
+
+        Iterator<Student> it = students.iterator();
+
+        while(it.hasNext()){
+            Student student = it.next();
             str += student.ID + " " + student.name + " " + student.CGPA + " " + student.program.toString();
         }
+
 
         return str;
     }
