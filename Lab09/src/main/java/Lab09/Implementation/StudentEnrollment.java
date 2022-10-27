@@ -5,9 +5,6 @@ public class StudentEnrollment {
 
     List<Student> students = new ArrayList<>();
 
-    public void setStudent(Student student){
-        students.add(student);
-    }
 
     public void Remove(String id){
         for(Student student : students)
@@ -60,7 +57,7 @@ public class StudentEnrollment {
     public String Print(){
         String str = "";
         for(Student student : students){
-            str += student.ID + " " + student.name + " " + student.CGPA;
+            str += student.ID + " " + student.name + " " + student.CGPA + " " + student.program.toString();
         }
 
         return str;
