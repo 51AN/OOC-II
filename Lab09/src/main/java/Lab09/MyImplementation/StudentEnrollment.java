@@ -1,4 +1,4 @@
-package Lab08.MyImplementation;
+package Lab09.MyImplementation;
 
 public class StudentEnrollment {
 }

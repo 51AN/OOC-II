@@ -1,4 +1,4 @@
-package Lab08.Implementation;
+package Lab09.Implementation;
 
 public class Student {
 
@@ -34,6 +34,12 @@ public class Student {
     }
     public void Play(){
         System.out.println(name + " is currently playing");
+    }
+
+    public String print(){
+        String str = "";
+        str = ID + " " + " " + name + " " + CGPA + " " + program.toString();
+        return str;
     }
 
 }
