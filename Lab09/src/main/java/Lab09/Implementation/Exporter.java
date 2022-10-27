@@ -22,6 +22,25 @@ public class Exporter {
         fileWriter.close();
     }
 
+    public void writeXML(List<Student> students) throws IOException{
+        String xmlFilePath = "D:\\Java Projects\\OOC-II\\Lab09\\test.xml";
+//        BufferedWriter fileWriter = new BufferedWriter(new FileWriter(xmlFilePath));
+        OutputStreamWriter out = new OutputStreamWriter(new FileOutputStream(xmlFilePath), "UTF-16");
+
+        for(Student student : students){
+            String line = student.print();
+
+            out.write("\n");
+            out.write(line);
+
+        }
+        out.close();
+
+
+
+
+    }
+
 
 
 }

@@ -95,7 +95,7 @@ public class StudentEnrollmentTest {
 
 
     @Test
-    public void ExporterTest() throws IOException {
+    public void ExporterTest01() throws IOException {
 
         Student student = new Student("200042151", "Sian", (float) 3.93, Student.Program.SWE);
         Student student2 = new Student("200042149", "Dihan", (float) 3.65, Student.Program.SWE);
@@ -113,6 +113,27 @@ public class StudentEnrollmentTest {
         exporter.writeCSV(list1);
 
     }
+
+    @Test
+    public void ExporterTest02() throws IOException {
+
+        Student student = new Student("200042151", "Sian", (float) 3.93, Student.Program.SWE);
+        Student student2 = new Student("200042149", "Dihan", (float) 3.65, Student.Program.SWE);
+
+        StudentEnrollment studentEnrollment = new StudentEnrollment();
+
+        studentEnrollment.add(student);
+        studentEnrollment.add(student2);
+
+
+        List<Student> list1 = studentEnrollment.getAll();
+
+        Exporter exporter = new Exporter();
+
+        exporter.writeXML(list1);
+
+    }
+
 
 
 
