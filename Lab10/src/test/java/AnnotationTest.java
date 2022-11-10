@@ -37,7 +37,7 @@ public class AnnotationTest {
     }
 
     @Test
-    public void TestConstructorAnnotation(){
+    public void TestClassAnnotation2(){
         Course c1 = new Course("4301","OOC",3.0f,Type.theory);
         Course c2 = new Course("4302","OOC",1.5f,Type.lab);
 
@@ -46,13 +46,39 @@ public class AnnotationTest {
         courses.add(c2);
 
         Faculty faculty = new Faculty("Md. Jubair Ibna Mostafa", "Lecturer", 80000, courses);
+        Class classes = faculty.getClass();
+
+        DevelopmentHistory developmentHistory =(DevelopmentHistory)classes.getAnnotation(DevelopmentHistory.class);
+
+        assertEquals("Sian Ashsad", developmentHistory.developer());
+        assertEquals("", developmentHistory.tester());
+        assertEquals(1, developmentHistory.version());
+
+
+
+
+
+    }
+
+    @Test
+    public void TestConstructorAnnotation() {
+        Course c1 = new Course("4301", "OOC", 3.0f, Type.theory);
+        Course c2 = new Course("4302", "OOC", 1.5f, Type.lab);
+
+        ArrayList<Course> courses = new ArrayList<Course>();
+        courses.add(c1);
+        courses.add(c2);
+
+        Faculty faculty = new Faculty("Md. Jubair Ibna Mostafa", "Lecturer", 80000, courses);
+
+
         Constructor[] constructors = faculty.getClass().getDeclaredConstructors();
         List<String> ConstructorNames = new ArrayList<String>();
-
-        for(Constructor c : constructors){
+        for (Constructor c : constructors) {
             boolean isAnnotationPresent = c.isAnnotationPresent(DevelopmentHistoryWithReviewer.class);
-            if(isAnnotationPresent){
+            if (isAnnotationPresent) {
                 ConstructorNames.add(c.getName());
+
             }
         }
 
@@ -62,8 +88,13 @@ public class AnnotationTest {
 
         assertTrue(checkConstructor.containsAll(ConstructorNames));
 
+        for(Constructor c : constructors){
+            System.out.println(c.getName());
+        }
 
     }
+
+
 
     @Test
     public void TestMethodAnnotation(){
@@ -90,6 +121,8 @@ public class AnnotationTest {
 
         assertTrue(checkMethod.containsAll(MethodNames));
     }
+
+
 
 
 

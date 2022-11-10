@@ -29,7 +29,7 @@ public class Faculty {
     }
 
 
-    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(developer = "Sian Ashsad"))
+    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(developer = "Sian Ashsad"), reveiwers = {"Jubair","Faisal"})
     public void teach(Course course)
     {
         System.out.println("The course being taught now is "+course.CourseName+".\n");
