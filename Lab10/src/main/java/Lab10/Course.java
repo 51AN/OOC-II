@@ -2,7 +2,7 @@ package Lab10;
 
 public class Course {
     private String CourseCode;
-    private String CourseName;
+    public String CourseName;
     private Float Credit;
     private Type type;
 
