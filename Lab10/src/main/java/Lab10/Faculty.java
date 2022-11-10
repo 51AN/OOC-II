@@ -8,7 +8,7 @@ public class Faculty {
 
     public ArrayList<Course> courses;
 
-    
+
     public Faculty(String Name, String Designation, int Salary, ArrayList<Course> Courses)
     {
         this.name = Name;
