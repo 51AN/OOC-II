@@ -36,7 +36,7 @@ public class Faculty {
     }
 
 
-    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(developer = "Sian Ashsad"))
+    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(developer = "Sian Ashsad"), reveiwers = {"Jubair","Faisal"})
     public void research(String topic)
     {
         System.out.println("Topic of research : " + topic+".\n");
