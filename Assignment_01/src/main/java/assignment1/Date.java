@@ -1,6 +1,6 @@
 package assignment1;
 
-abstract public class Date {
+ public class Date {
     private int day;
     private int month;
     private int year;
@@ -29,7 +29,7 @@ abstract public class Date {
         return this.year;
     }
 
-    protected void next_date(){
+    public void next_date(){
         if(day == last_day_of_month){
             day = 0;
         }
