@@ -121,17 +121,17 @@ public class EmployeeDB {
     }
 
     //Task08
-    public int totalSalaryofFilteredEmployee(int minSalary){
+    public int totalSalaryOfFilteredEmployee(int minSalary){
         //int totalFilteredSalary = 0;
         List<Employee> filteredEmployee = ListOfEmployees.stream()
                 .filter(e -> e.getSalary() > minSalary)
                 .collect((Collectors.toList()));
 
-        int totalFilteredSalary = filteredEmployee.stream()
+        return  filteredEmployee.stream()
                 .mapToInt(e ->e.getSalary())
                 .sum();
 
-        return totalFilteredSalary;
+
     }
 
 

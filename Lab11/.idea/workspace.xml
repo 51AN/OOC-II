@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="89e1647d-8b29-424c-b730-ec56d3decc81" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab11.txt" beforeDir="false" afterPath="$PROJECT_DIR$/lab11.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Lab11/EmployeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab11/EmployeeDB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Lab11/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab11/Employee.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Lab11/EmployeeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Lab11/EmployeeDB.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/TestEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestEmployee.class" afterDir="false" />
     </list>

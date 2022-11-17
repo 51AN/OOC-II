@@ -120,7 +120,7 @@ public class TestEmployee {
 
         DB.addEmployee(employee);
 
-        System.out.println(DB.totalSalaryofFilteredEmployee(2));
+        System.out.println(DB.totalSalaryOfFilteredEmployee(2));
 
     }
 
