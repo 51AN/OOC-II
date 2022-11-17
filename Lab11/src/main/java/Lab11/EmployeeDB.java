@@ -16,6 +16,7 @@ public class EmployeeDB {
         try {
             fw = new FileWriter ("D:\\Java Projects\\OOC-II\\Lab11\\lab11.txt", true ) ;
             fw . write ( employee . toString () + "\n") ;
+            ListOfEmployees.add(employee);
         }
         catch ( IOException e ) {
             e . printStackTrace () ;
@@ -86,6 +87,10 @@ public class EmployeeDB {
 
     }
 
+    public List<Employee> getEmployeeList(){
+        return this.ListOfEmployees;
+    }
+
     //Task03
     //This is an impure function as it modifies one of its own arguments
     public List < Employee > add ( List < Employee > employees , Employee employee ) {
@@ -101,12 +106,33 @@ public class EmployeeDB {
                 .collect(Collectors.toList());
     }
 
+    //Task06
     public List<Employee> salaryFilter(int minSalary){
         return ListOfEmployees.stream()
                 .filter(e -> e.getSalary() > minSalary)
                 .collect((Collectors.toList()));
     }
 
+    //Task07
+    public List<Employee> incrementMapper(int increment){
+         ListOfEmployees.stream()
+                .forEach(e -> e.setSalary( e.getSalary() + (e.getSalary()*(increment/100))));
+         return new ArrayList<>(ListOfEmployees);
+    }
+
+    //Task08
+    public int totalSalaryofFilteredEmployee(int minSalary){
+        //int totalFilteredSalary = 0;
+        List<Employee> filteredEmployee = ListOfEmployees.stream()
+                .filter(e -> e.getSalary() > minSalary)
+                .collect((Collectors.toList()));
+
+        int totalFilteredSalary = filteredEmployee.stream()
+                .mapToInt(e ->e.getSalary())
+                .sum();
+
+        return totalFilteredSalary;
+    }
 
 
 
