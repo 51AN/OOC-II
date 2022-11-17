@@ -12,7 +12,7 @@ public class FactoryDate {
             this.date = new Month30Days(day,month,year);
         }
         else if(MonthsWith31Days.contains(month)){
-            this.date = new Month30Days(day,month,year);
+            this.date = new Month31Days(day,month,year);
         }
         else{
             this.date = new February(day, year);

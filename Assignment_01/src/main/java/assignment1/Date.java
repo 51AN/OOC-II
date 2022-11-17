@@ -1,6 +1,6 @@
 package assignment1;
 
- public class Date {
+ abstract public class Date {
     private int day;
     private int month;
     private int year;
@@ -32,13 +32,14 @@ package assignment1;
     public void next_date(){
         if(day == last_day_of_month){
             day = 0;
+            if(month == last_month_of_year){
+                month = 1;
+                year++;
+            }
+            else {
+                month++;
+            }
         }
-        if(month == last_month_of_year){
-            month = 0;
-            year++;
-        }
-
-        month++;
         day++;
     }
 
