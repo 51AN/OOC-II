@@ -1,0 +1,3 @@
+-->A parameter of an object of Computer class in passed into the constructor of Laptop class
+-->Laptop class is dependent on the instance of computer class.
+-->Any change in the computer class will have direct effect on the laptop class.
