@@ -10,7 +10,7 @@ public class Faculty {
     public ArrayList<Course> courses;
 
 
-    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(developer = "Sian Ashsad"))
+    @DevelopmentHistoryWithReviewer(DevelopmentHistory = @DevelopmentHistory(version = 2, developer = "Sian Ashsad"))
     public Faculty(String Name, String Designation, int Salary, ArrayList<Course> Courses)
     {
         this.name = Name;

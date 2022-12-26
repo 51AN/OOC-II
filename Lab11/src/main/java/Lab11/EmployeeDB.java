@@ -127,7 +127,10 @@ public class EmployeeDB {
                 .filter(e -> e.getSalary() > minSalary)
                 .collect((Collectors.toList()));
 
-        return  filteredEmployee.stream()
+        return  (ListOfEmployees.stream()
+                .filter(e -> e.getSalary() > minSalary)
+                .collect((Collectors.toList())))
+                .stream()
                 .mapToInt(e ->e.getSalary())
                 .sum();
 

@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89e1647d-8b29-424c-b730-ec56d3decc81" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task1/a/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task1/a/SomeClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task1/b/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task1/b/Mail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task2/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task2/BookRentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task2/BookType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task3/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/Task3/Operations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/test/java/TestBookRentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/test/java/TestCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/test/java/TestTask4/TestAbstractCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/src/test/java/TestTask4/TestBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task1/a/Computer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task1/a/SomeClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task1/b/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task1/b/Mail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task2/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/Task2/BookRentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LabFinal51/target/test-classes/TestBookRentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/src/main/java/Lab10/Faculty.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/src/main/java/Lab10/Faculty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/src/test/java/AnnotationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/src/test/java/AnnotationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/target/classes/Lab10/Faculty.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/target/classes/Lab10/Faculty.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab10/target/test-classes/AnnotationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab10/target/test-classes/AnnotationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lab11/EmployeeDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lab11/EmployeeDB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPractice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPractice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreadPractice/src/main/java/Threads/LaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreadPractice/src/main/java/Threads/LaMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +70,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/Java Projects/OOC-II/Assignment_01"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java Projects/OOC-II/Lab10&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="JUnit.TestEmployee.TestTotalSalaryFilter">
     <configuration name="TestEmployee.TestAgefilter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lab11" />

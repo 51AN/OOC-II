@@ -1,5 +1,8 @@
 package Threads;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LaMain {
 
     public static void main(String[] args) throws InterruptedException {
@@ -24,6 +27,8 @@ public class LaMain {
         thread.start();
 //        thread.join();
         v2.start();
+
+        List<Integer> list = new ArrayList<>();
 
 
         System.out.println("==Pain Loaded Successfully==");

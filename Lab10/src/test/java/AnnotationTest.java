@@ -35,6 +35,23 @@ public class AnnotationTest {
         assertTrue(checkClasses.containsAll(ClassNames));
 
     }
+    @Test
+    public void TestClassAnnotationTest(){
+        Course c1 = new Course("4301","OOC",3.0f,Type.theory);
+        Course c2 = new Course("4302","OOC",1.5f,Type.lab);
+
+        ArrayList<Course> courses = new ArrayList<Course>();
+        courses.add(c1);
+        courses.add(c2);
+
+        Faculty faculty = new Faculty("Md. Jubair Ibna Mostafa", "Lecturer", 80000, courses);
+        Class cls = faculty.getClass();
+
+        assertEquals("Lab10.Faculty", cls.getName());
+
+    }
+
+
 
     @Test
     public void TestClassAnnotation2(){
